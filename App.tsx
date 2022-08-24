@@ -17,8 +17,8 @@ const App = () => {
     <AppStack.Navigator>
       {/* <AppStack.Screen name="Homepage" component={Homepage} /> */}
       {/* <AppStack.Screen name="OnboardingScreen 1" component={OnboardingScreen1} /> */}
-      <AppStack.Screen name="OnboardingScreen 2" component={OnboardingScreen2} />
-      {/* <AppStack.Screen name="OnboardingScreen 3" component={OnboardingScreen3} /> */}
+      {/* <AppStack.Screen name="OnboardingScreen 2" component={OnboardingScreen2} /> */}
+      <AppStack.Screen name="OnboardingScreen 3" component={OnboardingScreen3} />
     </AppStack.Navigator>
    </NavigationContainer>
   );

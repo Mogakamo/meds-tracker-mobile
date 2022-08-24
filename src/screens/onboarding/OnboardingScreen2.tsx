@@ -1,10 +1,10 @@
-import {View, Text, Button, Linking, Image} from 'react-native';
+import {View, Text, Button, Linking, Image, SafeAreaView} from 'react-native';
 import React, {useLayoutEffect} from 'react';
 import tw from '../../lib/tailwind';
 import {useNavigation} from '@react-navigation/native';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import classNames from 'classnames';
-import {SafeAreaView} from 'react-native-safe-area-context';
+import {} from 'react-native-safe-area-context';
 
 // type Props = NativeStackScreenProps<>;
 type Props = {
